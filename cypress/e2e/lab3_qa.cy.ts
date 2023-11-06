@@ -22,7 +22,7 @@ describe('Nombre de Usuario', function () {
     });
     afterEach(function () {
         // Recarga la Página
-        //cy.reload();
+        cy.reload();
     });
     it('Caso de Prueba #1 - Nombre Válido', function(){
         // Escribiendo en Nombre
